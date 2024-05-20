@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Master in Computer Science</title>
+    <link rel="stylesheet" href="couse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2 i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eeafe5f46c.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;0,700;1,100;1,200;1,400&display=swap"
+    rel="stylesheet">
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.php"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="About.php">ABOUT</a></li>
+                    <li><a href="course.php">COURSE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="diploma">
+            <h1>Master in Computer Science</h1>
+
+            <div class="content">
+                <h5>About the Course</h5>
+
+                <p>The Master in Computer Science programme at Management and Science University is a comprehensive and
+                    professionally oriented computer science module which blends the basics of computer science with
+                    contemporary and applied skills imperative to a career in technology. This programme is well-suited
+                    to individuals with an interest in specific technology related areas from a range that includes
+                    computer engineering, mobile computing, and data analytics. Through the course of this programme,
+                    you will collaborate with accomplished lecturers experienced in industry and work with colleagues of
+                    a similar mind-set. Upon graduation, you will be well-equipped with the skillset needed in this
+                    industry.</p><br>
+
+                <h5>Entry Requirements</h5>
+                <p>(i) A Bachelor's <strong>Degree in Computing</strong> field with CGPA of <strong>2.5</strong> and above. Candidate with a CGPA below
+                    2.5 but above 2.0 may be accepted, subject to rigorous internal review process;</p><br>
+                <p>OR</p><br>
+                <p>(ii) Other equivalent qualification recognised by Malaysian Government. </p><br>
+                
+                <h5>Duration of Study</h5>
+                <p>1 - 6 years</p><br>
+
+                <h5>Fees</h5>
+                <p>RM15,500</p>
+            </div>
+
+            <div class="btn">
+                <a href="inbox.html" class="btn" type="submit">SEND</a>
+            </div>
+
+        </section>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+</html>

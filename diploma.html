@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Diploma in Computer Engineering</title>
+    <link rel="stylesheet" href="couse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2 i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eeafe5f46c.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;0,700;1,100;1,200;1,400&display=swap"
+    rel="stylesheet">
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.php"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="About.php">ABOUT</a></li>
+                    <li><a href="course.php">COURSE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+        <section class="diploma">
+            <h1>Diploma in Computer Engineering</h1>
+
+            <div class="content">
+                <h5>About the Course</h5>
+
+                <p>If you have an interest in finding out how computer works, exploring the hardware and software, being
+                    a computer engineering technologist has extensive possibilities. The curriculum of the MSU Diploma
+                    in Computer Engineering will give you a firm foundation in computer engineering, computer
+                    communications, and computer architecture. Through the innovative teaching and learning delivery
+                    techniques employed at MSU, you will gain highly developed transferable skills such as the
+                    analytical skills to solve complex problems and the communication skills to present your results
+                    effectively. At the end of your programme, you will graduate with the adaptability needed to meet
+                    the challenges of the 21st century.</p><br>
+
+                <h5>Entry Requirements</h5>
+                <p>i. Pass <strong>SPM</strong> or its equivalent with at least credits in THREE (3) subjects, including <strong>Mathematics</strong> and
+                    <strong>ONE (1)</strong> relevant science / technical / vocational subject AND a pass in <strong>English</strong>;</p>
+                <p>ii. Pass <strong>Sijil Tinggi Persekolahan Malaysia (STPM)</strong> or its equivalent with a pass in <strong>Mathematics</strong>,
+                    <strong>English</strong> and <strong>ONE (1)</strong> relevant science / technical / vocational subject at the SPM level;</p>
+                <p>iii. Recognised Certificate in Engineering / Engineering Technology or its equivalent;</p>
+                <p>iv. Recognised related Vocational and Technical / Skills Certificate or its equivalent with ONE (1)
+                    year of relevant work experience or a minimum of ONE (1) semester of a bridging programme.</p><br>
+                    <h4>International students</h4>
+                    <p>Test of English as a Foreign Language (TOEFL) score of 500 OR
+                    International English Language Testing System (IELTS) score of 5.0 OR its equivalent.</p><br>
+                <p>If a student does not meet this requirement, HEPs must offer English proficiency courses to ensure
+                    that the student's proficiency is sufficient to meet the needs of the programme. This is normally
+                    conducted through an assessment process.</p><br><br>
+
+                <h5>Duration of Study</h5>
+                <p>4 years</p><br>
+
+
+                <h5>Fees</h5>
+                <p>RM20,000 - RM25,000</p>
+            </div>
+
+            <div class="btn">
+                <a href="inbox.html" class="btn"type="submit">SEND</a>
+            </div>
+
+        </section>
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+    
+    
+        </script>
+</body>
+</html>

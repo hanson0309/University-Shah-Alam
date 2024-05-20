@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Bachelor in Computer Science</title>
+    <link rel="stylesheet" href="couse.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2 i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/eeafe5f46c.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;0,700;1,100;1,200;1,400&display=swap"
+    rel="stylesheet">
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.php"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.php">HOME</a></li>
+                    <li><a href="About.php">ABOUT</a></li>
+                    <li><a href="course.php">COURSE</a></li>
+                    <li><a href="contact.php">CONTACT</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="logout.php">LOGOUT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <section class="diploma">
+            <h1>Bachelor in Computer Science (Hons)</h1>
+
+            <div class="content">
+                <h5>About the Course</h5>
+
+                <p>Students of Bachelor in Computer Science (Honours) at MSU will receive a detailed and rigorous
+                    treatment of the fundamental principles of the discipline. The theories learnt in the classroom are
+                    further strengthened by intensive practical sessions in MSU's computer labs. Experienced lecturers
+                    facilitate the learning process through formative and summative assessments. This programme is
+                    designed with your future career in mind and our collaboration with industry partners help to ensure
+                    you graduate industry ready and are kept abreast of all the latest breakthroughs in computer
+                    science.</p><br>
+
+                <h5>Entry Requirements</h5>
+                <p>i. Pass in <strong>Matriculation</strong> or <strong>Foundation</strong> studies with a minimum CGPA
+                    of <strong>2.00</strong> or pass in <strong>STPM</strong> or
+                    equivalent with a minimum of Grade C (GP 2.00) in any 2 subjects and credit in the following
+                    subjects at SPM level or its equivalent:</p>
+                <p>a) <strong>Additional Mathematics</strong>; or</p>
+                <p>b) <strong>Mathematics</strong> and any one of the <strong>Science</strong>,
+                    <strong>Technology</strong> or <strong>Engineering</strong> subjects.</p>
+                <p>Note: Candidates for category i b) need to take Mathematics reinforcement subjects with topics
+                    relevant to Computer Science and Software Engineering at the beginning of their studies.</p>
+                <p>Students must pass the Mathematics reinforcement subject as a prerequisite before being allowed to
+                    take the relevant core course. However, this provision does not prevent students from pursuing other
+                    courses either core or non-core that do not require the Mathematics reinforcement subject.</p>
+                <p>Credits for Mathematics reinforcement subjects are additional credits to core subjects and can be
+                    considered as credit to graduate.</p>
+                <p>Mathematics reinforcement subject requirements may be excluded if the Matriculation or Foundation
+                    programme or its equivalent offers Mathematics and its achievement is equivalent to / higher than
+                    the credit requirements of the Additional Mathematics subject at SPM level;</p>
+                <p>ii. Pass STPM in <strong>Science stream</strong> or its equivalent, with a minimum of Grade C (GP
+                    2.00) in one
+                    Mathematic and one Science / ICT subject;</p>
+                <p>iii. Diploma in <strong>Computer Science</strong> OR <strong>Software Engineering</strong> OR
+                    <strong>Information Technology</strong> OR <strong>Information
+                        Systems</strong> or its equivalent with a minimum CGPA of <strong>2.50</strong>;</p>
+                <p>iv. Any other Diploma in <strong>science</strong> and <strong>technology</strong> with a minimum CGPA of <strong>2.50</strong>.</p>
+                <br><br>
+
+                <h5>Duration of Study</h5>
+                <p>3 years</p><br>
+
+                <h5>Fees</h5>
+                <p>RM40,000 - RM45,000</p>
+            </div>
+
+            <div class="btn">
+                <a href="inbox.html" class="btn" type="submit">SEND</a>
+            </div>
+
+        </section>
+    </section>
+
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+
+    </script>
+</body>
+
+</html>
